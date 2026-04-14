@@ -113,7 +113,7 @@ void Application::Destroy(void)
 	delete fpsController_;
 
 	InputManager::GetInstance().Destroy();
-	ResourceManager::GetInstance().Destroy();
+	//ResourceManager::GetInstance().Destroy();
 
 	// ƒV[ƒ“ŠÇ—‰ğ•ú
 	SceneManager::GetInstance().Destroy();
