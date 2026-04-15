@@ -33,14 +33,11 @@ void TitleScene::Update(void)
 	{
 		sceMng_.ChangeScene(SceneManager::SCENE_ID::GAME);
 	}
-
-	
 }
 
 void TitleScene::Draw(void)
 {
-	
-
+	DrawString(0, 0, "TitleScene", 000000);
 }
 
 void TitleScene::Release(void)
